@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto , Poppins;
+    font-size: medium;
+}
+
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul{
+    display:inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li .fa-solid fa-bag-shopping{
+    color:#fff;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li .fa-solid fa-bars{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.container{
+    
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.layout-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sec-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.sec-2 h1{
+    padding: 5px;
+    font-family: Poppins;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    
+}
+
+.sec-2 h1:hover{
+    background: linear-gradient(to right, #f32170,#ff6b08,#cf23cf,#eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.header{
+    background:no-repeat;
+    background-size: cover;
+    background:linear-gradient(rgba(243, 237, 237, 0.7),rgba(29, 138, 165, 0.315));
+    
+}
+
+.header .layout-1{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.feature-section{
+    margin: 70px 0;
+}
+
+.sub-section{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.sec-3{
+    flex-basis: 30% ;    
+    min-width: 250px;
+    margin-bottom: 30px;
+    box-shadow: 5px 10px 18px #563434;
+}
+
+.sec-3:hover{
+     box-shadow: 8px 12px 20px rgb(179, 10, 136);
+}
+
+.sec-3 img{
+    width:100%;
+}
+
+.sec-2{
+    display: flex;
+}
+
+.sec-4{
+    flex-basis: 25%;
+    padding: 10px;
+    max-width: 220px;    
+    margin:  0px 5px 50px 20px ;
+    transition: transform 0.5s;
+}
+
+.sec-4 img{    
+    width: auto;
+    height: auto;   
+    
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color:#555;
+}
+
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+
+h4{
+    color:#555;
+    font-weight: normal; 
+ }
+ 
+ .sec-4 p{
+     font-size: 14px;
+ }
+ 
+ .rating .fa{
+     color:#ff523b;
+ }
+
+ .sec-4:hover{    
+    box-shadow: 8px 12px 20px rgb(179, 10, 136);
+    transform: translateY(-5px);
+}
+
+/*-------------------footer ------------------*/
+
+.footer{  
+    font-family: Poppins;
+    background:linear-gradient( #4682b4 , #b0e0e6);
+    color:#8a8a8a;
+    font-size: 60px 0 20px;
+    padding:60px 0 20px; 
+    
+}
+
+.footer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#000;
+}
+
+.footer h3{
+    color:rgb(109, 5, 5);
+    
+    margin-bottom: 20px;
+}
+
+a{
+    color:#000;
+}
+
+.footer-1, .footer-2, .footer-3, .footer-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+
+
+.footer-2{
+    flex:1;
+    text-align: center;
+    
+}
+
+.footer-2 img{
+    width:180px;
+    margin-bottom: 20px;
+}
+
+.footer-3{
+    
+    flex-basis: 12%;
+    text-align: center;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+
+.app-logo{    
+    margin-top:20px;
+}
+
+.app-logo img{
+    width:140px;
+}
+
+.footer hr{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+    margin:20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left:28px;
+}
+
+/* -------------------------------media query------------------------*/
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: #095b9e8a;
+    }
+}
+
