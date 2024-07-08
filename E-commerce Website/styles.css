@@ -130,7 +130,7 @@ a{
 .sec-4{
     flex-basis: 25%;
     padding: 10px;
-    max-width: 220px;    
+    max-width: 300px;    
     margin:  0px 5px 50px 20px ;
     transition: transform 0.5s;
 }
